@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
+      <!--custom css-->
+      <link type="text/css" href="portfolio.css" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Jim+Nightshade' rel='stylesheet' type='text/css'>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+      
+      <script type="text/javascript">
+        $(document).ready(function(){
+        $('.scrollspy').scrollSpy();
+        });
+      </script>
+    </head>
+
+    <body>
+        <!--Fixed header-->
+        <div class="navbar-fixed row">
+        <nav id="nav-header col s12">
+        <div class="nav-wrapper z-depth-2" id="header">
+          <div class="brand-logo center" id="name">Pratik Nalawade</div>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li id="nav-home"><a href="#home">Home</a></li>
+            <li id="nav-about"><a href="#aboutme">About Me</a></li>
+            <li id="nav-portfolio"><a href="#portfolio">Portfolio</a></li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+      <!-- Main content-->
+      <!--Home-->
+      <div>
+      <div class="card large col s12 scrollspy welcome" id="home">
+      <div class ="row">
+      <h1 class = "center col s12 title">Welcome</h1>
+      </div></div>
+      
+      <!--About ME-->
+      <div class="card-panel col s12 scrollspy aboutme" id="aboutme">
+      <div class="row"><h1 class="center col s12 title">About Me</h1></div>
+      <div class="row ">
+         <div class ="card col s12">
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         </div>
+    </div><div class="row">
+      <div class ="card col s12">
+          <table class=" centered">
+            <thead>
+          <tr>
+              <th data-field="Skilss" >Skills</th>
+              <th data-field="Novice" >Novice</th>
+              <th data-field="Beginner">Beginner</th>
+              <th data-field="Competent">Competent</th>
+              <th data-field="Proficient" >Proficient</th>
+              <th data-field="Expert">Expert</th>
+          </tr>
+          </thead><tbody>
+          <tr>
+              <td>HTML-CSS</td>
+              <td colspan="5" ><div class="progress" style="width:92%">
+      <div class="determinate proficient" style=" background-color:#00C853;"></div>
+  </div></td>
+        </tr><tr>
+              <td>javascript</td>
+              <td colspan="5" ><div class="progress" style="width:92%">
+      <div class="determinate competent" style=" background-color:#00C853;"></div>
+  </div></td>
+        </tr><tr>
+              <td>jQuery</td>
+              <td colspan="5" ><div class="progress" style="width:92%">
+      <div class="determinate competent" style=" background-color:#00C853;"></div>
+  </div></td>
+        </tr><tr>
+              <td>Server Side langugaes<br>(JAVA & PHP)</td>
+              <td colspan="5" ><div class="progress" style="width:92%">
+      <div class="determinate proficient" style=" background-color:#00C853;"></div>
+  </div></td>
+          </tr><tr>
+              <td>Wireframing</td>
+              <td colspan="5" ><div class="progress" style="width:92%">
+      <div class="determinate beginner" style=" background-color:#00C853;"></div>
+  </div></td>
+        </tr>
+        </tbody></table>
+        </div>
+      </div></div>
+      
+      <!--portfolio-->
+      <div class="card col s12 scrollspy portfolio" id="portfolio">
+      <div class="row">
+          <h1 class="center col s12 title">Portfolio</h1>
+      </div>
+        <div class="row">
+      <div class="col s6 center">
+      <div class="card col s12">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="new-material-design.jpg">
+    </div>
+        <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Smart Class<i class="material-icons small right">info_outline</i></span>
+      <p>Click on title for more info</p>
+    </div>
+        <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+    </div>
+  </div>
+    <div class="col s6 center">
+      <div class="card col s12">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="new-material-design.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Enthusia<i class="material-icons small right">info_outline</i></span>
+      <p>Click on title for more info</p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
+  </div>
+  </div>
+        <div class="row">
+      <div class="col s6 center">
+      <div class="card col s12">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="new-material-design.jpg">
+    </div>
+        <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Employee Expense Management<i class="material-icons small right">info_outline</i></span>
+      <p>Click on title for more info</p>
+    </div>
+        <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+    </div>
+  </div>
+    <div class="col s6 center">
+      <div class="card col s12">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="new-material-design.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Sharaddanand Mahilashram<i class="material-icons small right">info_outline</i></span>
+      <p>Click on title for more info</p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
+  </div>
+  </div>
+      </div>
+      <div class="card col s12 scrollspy portfolio" id="portfolio2">
+    </div>
+    </div>
+      <!--footer-->
+      <footer class="page-footer" id="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">© 2015 Pratik Nalawade
+            </div>
+          </div>
+        </footer>
+    </body>
+  </html>

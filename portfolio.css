@@ -1,0 +1,70 @@
+#header{
+    background: #1e88e5;
+    font-family: 'Adamcg';
+}
+
+#footer{
+    background: #1e88e5;
+    font-family: 'Adamcg';
+}
+
+a:hover { 
+    background-color: #0d47a1;
+}
+@font-face {
+    font-family: "Adamcg";
+    src: url("ADAMCG.otf") format("opentype");
+  }
+.title {
+    font-family: 'Adamcg';
+    color: #000;
+}
+
+.welcome{
+    /*background-image: url(new-material-design.jpg);
+    background-repeat: no-repeat;
+    opacity: 1;
+    width: 100%;
+    height : 50%;
+    background-position: right 0px bottom 0px;
+    background-size:cover;*/
+    background-color:#B388FF;
+}
+
+.aboutme{
+    background-color :#f8bbd0;
+    
+}
+
+.portfolio{
+    background-color: #A7FFEB;
+}
+
+body{
+    font-family: 'Adamcg';
+}
+
+.progress{
+    height:15px;
+    background-color:#BDBDBD;
+}
+
+.novice{
+    width:8%;
+}
+
+.beginner{
+    width: 29%;
+}
+
+.competent{
+    width :53%;
+}
+
+.proficient{
+    width:78%;
+}
+
+.expert{
+    width:100%;
+}
