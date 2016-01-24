@@ -8,7 +8,7 @@
     font-family: 'Adamcg';
 }
 
-a:hover { 
+a:hover {
     background-color: #0d47a1;
 }
 @font-face {
@@ -33,7 +33,7 @@ a:hover {
 
 .aboutme{
     background-color :#f8bbd0;
-    
+
 }
 
 .portfolio{
@@ -67,4 +67,8 @@ body{
 
 .expert{
     width:100%;
+}
+
+.portimg{
+  width:100%;
 }
