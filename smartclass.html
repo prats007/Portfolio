@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
+      <!--custom css-->
+      <link type="text/css" href="portfolio.css" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Jim+Nightshade' rel='stylesheet' type='text/css'>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+        $('.scrollspy').scrollSpy();
+        });
+      </script>
+    </head>
+
+    <body>
+        <!--Fixed header-->
+        <div class="navbar-fixed row">
+        <nav id="nav-header col s12">
+        <div class="nav-wrapper z-depth-2" id="header">
+          <div class="brand-logo center" id="name">Pratik Nalawade</div>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li id="nav-home"><a href="#home">Home</a></li>
+            <li id="nav-about"><a href="#resume">Resume</a></li>
+            <li id="nav-portfolio"><a href="#portfolio">Portfolio</a></li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+      <!-- Main content-->
+      <!--Home-->
+      <div>
+      <div class="card large col s12 scrollspy welcome" id="home">
+      <div class ="row">
+      <h1 class = "center col s12 title">Smart Class</h1>
+      </div>
+      <p class="center container data" style="font-size:18px;text-align:justify">Hi, I am Pratik Nalawade.<br><br>
+      I am an Information Technology undergraduate from VJTI, Mumbai. I am currently working at Deloitte Consulting USI as a Business Technology Analyst and
+      I have an experience of 1.5+ years. I have a keen interest in understanding user behaviour and i want to design products that are user friendly.
+      My goal is to become a User experience designer working with mobile and web technologies to develop user centric products.
+      I like to tackle real world problems and create solutions through mobile or web applications.
+      I am Tech savvy person and i am always playing around with different devices.
+      I like to explore and learn new technologies, I keep learning new computer languages through books and online courses.
+      I am a huge science fiction fan and I hope someday I'll be able to design computer interfaces that are shown in science fiction movies.</p>
+      </div>
+
+      <!--footer-->
+      <footer class="page-footer" id="footer">
+          <div class="footer-copyright">
+            <div class="row">
+              <div class="col l4 container">© 2015 Pratik Nalawade </div>
+              <div class="col l4 container"><a class="grey-text text-lighten-3" href="mailto:pratik.v.nalawade@gmail.com">Email</a></div>
+              <div class="col l4 container"><a class="grey-text text-lighten-3" href="https://in.linkedin.com/in/pratiknalawade">LinkedIn</a></div>
+          </div>
+          </div>
+        </footer>
+    </body>
+  </html>
