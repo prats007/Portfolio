@@ -22,9 +22,16 @@
     On sucessfully parsing the all the files I started to create a data structure that will store all values.
     The data structure was created with keeping bar charts in mind but not scatter plots which was a mistake since it increased the efforts for making a scatterplot.
     As per the rubric the bar chart control was created to take input for 2 variables for n number of countries. I decided to create a separate bar chart for each country since it will be easier to compare 2 variables for one country on one chart.
-    This layout was also implemented with line chart</p>
+    This layout was also implemented with line chart. For the scatterplot I made a different data structure and decided to show values for a certain year for all the countries for a given set of variables.
+    A lot of the decisions earlier in the process were changed like the country drop down was replaced with a checkbox to make it easier to select multiple countries at once.</p>
     <h3>Design Choices</h3>
+    <ul>
+      <li>Number of charts on 1 page : During the first iteration I displayed 6 grpahs on one page. I reduced the number to 3 to improve visiility of the charts since it gets really crowded when viewving 2 variables for multiple countries</li>
+      <li>Color for variables : The colors used for representing the variables have a similar saturation and change in hue and lightness. The colors were tested for color blind accessibility and the colors were distinguishable</li>
+      <li>3rd variable in scatter plot : In the first iteration the 3rd variable decided the radius of the circle. This caused an issue when the data was huge and the circles became large enough that their realtionship was not visible. Hence the 3rd variable now decides the color. This method makes the outliers clearly visible</li>
+    </ul>
     <h3>Findings</h3>
+    
     <h3>Video</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/fciqo5xfCiE" frameborder="0" allowfullscreen></iframe>
 </div>
