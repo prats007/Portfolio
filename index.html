@@ -17,6 +17,7 @@
       <script type="text/javascript">
         $(document).ready(function(){
         $('.scrollspy').scrollSpy();
+        $(".button-collapse").sideNav();
         });
       </script>
     </head>
@@ -26,12 +27,18 @@
         <div class="navbar-fixed row">
         <nav id="nav-header col s12">
         <div class="nav-wrapper z-depth-2" id="header">
-          <div class="brand-logo center" id="name">Pratik Nalawade</div>
+          <div class="brand-logo center col s8" id="name">Pratik Nalawade</div>
+           <a href="#" data-activates="mobilemenu" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li id="nav-home"><a href="#home">Home</a></li>
             <li id="nav-about"><a href="#resume">Resume</a></li>
             <li id="nav-portfolio"><a href="#portfolio">Portfolio</a></li>
           </ul>
+          <ul class="side-nav" id="mobilemenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+      </ul>
         </div>
       </nav>
       </div>
