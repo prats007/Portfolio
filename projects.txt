@@ -1,0 +1,25 @@
+Pet pal
+Research - Conducted interviews and observations - on whom?
+What were the problems ? user quotes
+Personas for the problem - Why 2 personas
+
+Design - Storyboard to understand the solution - Final pic why
+Lo-Fi prototype - Cog walkthrough, Heuristics - insights
+Hi-Fi prototype - User evaluation - Insights
+
+
+doublemap
+What is doublemap? How does it work
+User evaluation : Inquiry, Heuristic, Cog walkthrough
+Recommendations
+
+Smartclass
+Research : Coming up with domain. Main problems ?
+Design : Proposed solution - Front end application
+Result :
+
+Visualizations :
+Census data
+Research:
+Design:
+Result:
