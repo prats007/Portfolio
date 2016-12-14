@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/1.1.0/d3-legend.js"></script>
+    <script src="https://d3js.org/d3-queue.v3.min.js"></script>
+    <script src="https://d3js.org/d3-format.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.min.js" charset="utf-8"></script>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="scripts/jstat.js"></script>
+    <script type="text/javascript" src="scripts/regression.js"></script>
+    <script type="text/javascript" src="scripts/clusterfck.js"></script>
+    <script type="text/javascript" src="scripts/venn.js"></script>
+    <script type="text/javascript" src="./scripts/main.js"></script>
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <script type="text/javascript">
+
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">H590 Interactive Visual Analytics</a>
+    </div>
+    <ul class="nav navbar-nav pull-right">
+                <li class="active"><a href="index.html">Visualization</a></li>
+                <li class=""><a href="documentation.html">Documentation</a></li>
+                <li><a href="https://youtu.be/_BrKbdnOXEc" target="_blank" >Youtube Video</a></li>
+                <li><a href="https://github.iu.edu/sajagtap/d3project3" target="_blank" >GitHub</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <div class="row">
+      <span class="col-lg-1"></span>
+      <div class="col-lg-2">
+      <h3 style="opacity:0.8">Correlation Matrix</h3>
+      </div>
+  </div>
+
+  <div class="row">
+      <span class="col-lg-1"></span>
+      <div class="col-lg-2">
+          <label id="lblselectionWidget">Select data variable</label>
+          <select id="selectionWidget" class="form-control ">
+              <option value="Market Capitalization">Market Capitalization</option>
+              <option value="Blue Chip Index">Blue Chip Index</option>
+              <option value="Broad Stock Index Performance">Broad Stock Index Performance</option>
+              <option value="Turn Over Velocity">Turn Over Velocity</option>
+              <option value="Exchange Rate">Exchange Rate</option>
+          </select>
+      </div>
+      <div class="col-lg-5">
+          <div class="col-lg-3">
+          <label id="Radios">Order by</label> <br>
+          <form class="distribution-radio options1">
+              <label class="radio-inline">
+                  <input id="NC" type="radio" name="distribution" value="Non Clustered" checked >Name
+              </label>
+              <label class="radio-inline">
+                  <input id="C" type="radio" name="distribution" value="Clustered">Cluster
+              </label>
+          </form>
+          </div>
+          <div class="col-lg-6">
+              <div class="" id="divLegend"><svg id="legend" height="200"></svg></div>
+          </div>
+
+      </div>
+
+        <div class="col-lg-3">
+            <h3 style="opacity:0.8">Indvidual market data</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-7">
+            <svg id="matrix"></svg>
+            <p id="about">This visualization demonstrates the degree of interdependence of world stock market using various stock market indicator like Market Capitalization, Blue-chip index, Broad Stock Index Performance, Currency Exchange Rate and Share Turnover Velocity.  The data used for the visualization is borrowed from the monthly reports of World Federation of Exchanges. The report covers stock market data of most of the world’s stock exchanges. This visualization shows data of year 2010
+            </p>
+
+        </div>
+
+        <div class="col-lg-5 rightSide">
+            <div class="row">
+                <svg id="line1"></svg></div>
+            <div class="row">
+                <svg id="line2"></svg></div>
+            <div class="row">
+                <svg id="venn" height="400" width="600"></svg></div>
+        </div>
+  </div>
+
+</body>
+
+</html>
