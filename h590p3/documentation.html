@@ -49,43 +49,45 @@
 
                 <div class="content">
                     <h2>Documentation</h2>
+                    <h3>Summary</h3>
+                    <p>This visualization demonstrates the degree of interdependence of world stock market using various stock market indicator like Market Capitalization, Blue-chip index, Broad Stock Index Performance, Currency Exchange Rate and Share Turnover Velocity.  The data used for the visualization is borrowed from the monthly reports of World Federation of Exchanges. The report covers stock market data of most of the world’s stock exchanges. This visualization shows data of year 2010.  </p>
+                    <p>The visualization uses Pearson correlation coefficient to find degree of correlation between two chosen stock in the matrix. The correlation co-efficient value oscillates between -1 to +1. If the value is -1 the correlation is negative and if its +1 it can be assumed that there is positive correlation and two stock market, follow each other. On the other hand, if the correlation is 0, it means two stock market not dependent on each other and we can’t establish relationship between them. The visualization represents negative values in red color and positive values with the green color in correlation matrix.  </p>
+                    <p>Additionally, visualization can cluster strongly related markets based on their correlation coefficient. The visualization also show trend line when clicked on any cell in the matrix along with Venn diagram to visualize the degree and form of the interdependence. </p>
+                    <p>Visualization show that, emerging markets move together with markets of developed countries up to some extent. This information can be used by investor in diversifying their portfolio to hedge the potential risk in the market. It can also be used by the economists to predict domino effect if any one of the market takes hit.</p>
+
                     <h4 style="font-style:italic">Design Process</h4>
-
-                    <img src="images/image1.jpg" alt="Design Sketches" width="50%" style="display:block; margin:0 auto;">
-
-                    <img src="images/image2.jpg" alt="Design Sketches" width="50%" style="display:block; margin:0 auto; margin-top: 10px">
+                    <p>Design process began with collecting and analyzing nature of data. As data was in excel format and had many more indicator than what we were interested. We had to clean data and create comma separated file from the monthly excel report of World Federation of Exchanges.
+                    <img src="images/image1.jpg" alt="Design Sketches" width="50%" style="display:block; margin:0 auto;"></p>
+                    <p>Once we had data we began brainstorming best ways to find the correlation from the raw data. We came across the Pearson Correlation Co-efficient (PCC) which deduce the correlation between two sets of data. This co-efficient was idle for our problem statement. We decided to utilize the PCC.
+                    <img src="images/image2.jpg" alt="Design Sketches" width="50%" style="display:block; margin:0 auto; margin-top: 10px"></p>
+                    <p>The next challenge was to effectively show the PCC values between two stock exchange and individual stock market indicator trend over the year. We started brainstorming various ideas like parallel co-ordinate, word map etc. but at the end we settled with the Correlation matrix, Time series line graph and Venn diagram. Correlation matrix best represent relation between two variables in the array of variables.  </p>
 
 
                     <h3 style="margin:22px 0">RATIONALE OF DESIGN CHOICES</h3>
                     <h4 style="font-style:italic">Design and Position of Legend</h4>
-                    <p>The legend is displayed in a vertical manner to occupy minimal space and positioned at the top so that only the visualization occupies the space below for a distraction-free view. It also keeps every-thing above the fold, eliminating the need to scroll.</p>
+                    <p>
+                      <ul>
+                        <li><p>Correlation Matrix Heat map:The number of stock exchanges and their relationship with every other stock market yields to large amount data and matrix were natural choice for such visualization. </p></li>
+                        <li><p>Color for showing degree of correlation is represented by the green and red color.  Greener the cell higher the correlation and red the cell inverse the relationship. There was critical design decision made to show element with no correlation with white color to separate out them from rest of cells. </p></li>
+                        <li><p>Trend of Stock Market: Visualization aids user with trend of actual market indicator value for selected cell. </p></li>
+                        <li><p>4.	Venn Diagram: It is additional visual cue to reinforce the degree of correlation with visual instead of number and color. It utilizes the circles, if two circle overlap each other it means that they have positive correlation and vice versa. </p></li>
+                      </ul>
 
-                    <h4 style="font-style:italic">Radio Button for State and County</h4>
-                    <p>For toggling between State and County radio buttons (and not drop-down menus) have been used to eliminate unnecessary clicks and ease of visibility as switching between these two views is something a user might do frequently.</p>
-
-                    <h4 style="font-style:italic">General Design</h4>
-                    <p>In general, we followed a minimalistic design approach, without overwhelming the user with too much information. We used a pleasant color scheme that is both color-blind friendly and does not cause irritation to the user’s eyes with prolonged exposure to it.</p>
-
+                    </p>
                     <h4 style="font-style:italic">Choice of Charts</h4>
                     <img src="imgs/table.png" width="50%" style="display:block; margin:0 auto; margin-top: 10px">
 
                     <h3>DISCOVERING FACTS</h3>
                     <ul>
                         <li>
-                            The sex-ratio is fairly equal mostly 50-50 (51% Female- 49% Male sometimes.) This shows that if no cultural factors affect the natural process of reproduction then the chances of birth of a male or a female is truly 50-50, since America does not have the issue female feticide, which is gener-ally why certain countries have a skewed sex-ratio.
-
+                          NYSE and Nation stock Exchange Small multiple across various parameter showing positive relation
                         </li>
                         <li>
-                            Majority of America lies above 1, which is the threshold for income-poverty ratio for a house-hold/individual to be considered above poverty level.
+                          NYSE maintains positive relationship with most of world market showing other market react in same manner to the movement of New York Stock Exchange
                         </li>
                         <li>
-                            There is a co-relation between the educational attainment by place of birth and the presence of established universities in the state, California being the highest
+                            Athens Stock Market consistently shows negative correlation with the American stock market like NYSE and NASDAQ
                             <img src="imgs/pt3.png" width="50%" style="display:block; margin:0 auto; margin-top: 10px">
-                        </li>
-                        <li>
-                            More people in states with major cities, like New York and California, prefer to walk. This could probably be because of the high population, crowded streets and maybe because more people can afford to live close to their office.
-                                                        <img src="imgs/pt4.png" width="50%" style="display:block; margin:0 auto; margin-top: 10px">
-
                         </li>
 
                     </ul>
