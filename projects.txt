@@ -23,3 +23,52 @@ Census data
 Research:
 Design:
 Result:
+
+circular skills
+<div class="row wrapper" style="padding:0em;margin:-40px 0 0px 80px">
+<div class="col s2">
+<div class="c100 p70 center">
+<span>70%</span>
+<div class="slice"><div class="bar"></div>	<div class="fill"></div></div>
+</div>
+<p style="text-align:center">Wireframing</p>
+</div>
+<div class="col s2">
+<div class="c100 p60 center">
+<span>60%</span>
+<div class="slice"><div class="bar"></div>	<div class="fill"></div></div>
+</div>
+<p style="text-align:center">Prototyping</p>
+</div>
+
+<div class="col s2">
+<div class="c100 p80 center">
+<span>80%</span>
+<div class="slice"><div class="bar"></div>	<div class="fill"></div></div>
+</div>
+<p style="text-align:center">User Testing</p>
+</div>
+
+<div class="col s2">
+<div class="c100 p60 center">
+<span>60%</span>
+<div class="slice"><div class="bar"></div>	<div class="fill"></div></div>
+</div>
+<p style="text-align:center">User Research</p>
+</div>
+
+<div class="col s2">
+<div class="c100 p85 center">
+<span>85%</span>
+<div class="slice"><div class="bar"></div>	<div class="fill"></div></div>
+</div>
+<p style="text-align:center">HTML & CSS</p>
+</div>
+
+<div class="col s2">
+<div class="c100 p80 center">
+<span>80%</span>
+<div class="slice"><div class="bar"></div>	<div class="fill"></div></div>
+</div>
+<p style="text-align:center">Javascript</p>
+</div>

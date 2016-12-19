@@ -26,8 +26,8 @@
 			<nav id="nav">
 				<ul>
 					<li class="current"><a href="index.html">Home</a></li>
-					<li><a href="index.html">Skills</a></li>
-					<li><a href="index.html">Portfolio</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -67,13 +67,13 @@
 			</header>
 
 			<!-- Three -->
-			<section class="wrapper style3 container special">
+			<section class="wrapper style3 container special" id="portfolio">
 
 				<header class="major">
 					<h2>This is my <strong>work</strong></h2>
 				</header>
 
-				<div class="row">
+				<div class="row" >
 					<div class="6u 12u(narrower)">
 
 						<section>
@@ -147,57 +147,65 @@
 			</section>
 
 			<!-- Two -->
-			<header class="special container">
-				<span class="icon"><h2><strong>Skills</strong></h2></span>
+			<header class="special container" id="skills">
+				<span class="icon fa-cog"></span><h2><strong>Skills</strong></h2>
 			</header>
-			<section class="container">
-				<div class="row wrapper" style="padding:0em;margin:-40px 0 0px 80px">
-				<div class="col s2">
-			<div class="c100 p70 center">
-				<span>70%</span>
-				<div class="slice"><div class="bar"></div>	<div class="fill"></div></div>
-			</div>
-			<p style="text-align:center">Wireframing</p>
-		</div>
-		<div class="col s2">
-			<div class="c100 p60 center">
-			<span>60%</span>
-			<div class="slice"><div class="bar"></div>	<div class="fill"></div></div>
-			</div>
-			<p style="text-align:center">Prototyping</p>
-		</div>
-
-		<div class="col s2">
-			<div class="c100 p80 center">
-			<span>80%</span>
-			<div class="slice"><div class="bar"></div>	<div class="fill"></div></div>
-			</div>
-			<p style="text-align:center">User Testing</p>
-		</div>
-
-		<div class="col s2">
-			<div class="c100 p60 center">
-			<span>60%</span>
-			<div class="slice"><div class="bar"></div>	<div class="fill"></div></div>
-			</div>
-			<p style="text-align:center">User Research</p>
-		</div>
-
-		<div class="col s2">
-			<div class="c100 p85 center">
-			<span>85%</span>
-			<div class="slice"><div class="bar"></div>	<div class="fill"></div></div>
-			</div>
-			<p style="text-align:center">HTML & CSS</p>
-		</div>
-
-		<div class="col s2">
-			<div class="c100 p80 center">
-			<span>80%</span>
-			<div class="slice"><div class="bar"></div>	<div class="fill"></div></div>
-			</div>
-			<p style="text-align:center">Javascript</p>
-		</div>
+			<section class="container" >
+				<div class="row" style="padding-left:5%">
+					<div class="2u 6u(narrower)">
+					<span class="icon fa-pencil-square-o"><span><strong> User Research</strong>
+						<ul style="padding-left:5%;list-style-type:circle">
+							<li>User Interviews</li>
+							<li>Contextual Inquiry</li>
+							<li>Competitive Analysis</li>
+							<li>Usability Study</li>
+						</ul>
+					</div>
+					<div class="2u 6u(narrower)">
+					<span class="icon fa-line-chart"><strong> Data Analysis</strong><span>
+						<ul style="padding-left:5%;list-style-type:circle">
+							<li>Affinity Diagram</li>
+							<li>Card Sorting</li>
+							<li>Charts</li>
+						</ul>
+					</div>
+					<div class="2u 6u(narrower)">
+					<span class="icon fa-tablet"><strong> UX Design</strong><span>
+						<ul style="padding-left:5%;list-style-type:circle">
+							<li>Wireframing</li>
+							<li>Prototyping</li>
+							<li>User Personas</li>
+							<li>Storyboards</li>
+						</ul>
+					</div>
+					<div class="2u 6u(narrower)">
+					<span class="icon fa-bug"><strong> User Testing</strong><span>
+						<ul style="padding-left:5%;list-style-type:circle">
+							<li>Cognitive Walkthrough</li>
+							<li>Heuristic Evaluations</li>
+							<li>User study</li>
+							<li>A/B Testing</li>
+						</ul>
+					</div>
+					<div class="2u 6u(narrower)">
+					<span class="icon fa-code"><strong> Coding</strong><span>
+						<ul style="padding-left:5%;list-style-type:circle">
+							<li>HTML & CSS</li>
+							<li>Javascript</li>
+							<li>Android</li>
+							<li>PHP</li>
+						</ul>
+					</div>
+					<div class="2u 6u(narrower)">
+					<span class="icon fa-wrench"><strong> Tools</strong><span>
+						<ul style="padding-left:5%;list-style-type:circle">
+							<li>Axure</li>
+							<li>Photoshop</li>
+							<li>Invision</li>
+							<li>Balsamiq</li>
+						</ul>
+					</div>
+				</div>
 
 	</div>
 	</section>
@@ -211,7 +219,7 @@
 						<section>
 							<span class="icon featured fa-group" style="color: red;"></span>
 							<header>
-								<h3>Research</h3>
+								<h3 class="pagetitle">Research</h3>
 							</header>
 							<p style="text-align:justify">Identify user behaviours and user goals using quantitative and qualitative methods. Discover and define user scenarios and mental models.</p>
 						</section>
@@ -220,7 +228,7 @@
 						<section>
 								<span class="icon featured fa-paint-brush" style="color: blue;"></span>
 							<header>
-								<h3>Design</h3>
+								<h3 class="pagetitle">Design</h3>
 								<p style="text-align:justify">Create a concept using Whiteboard ideation and brainstorming. Visualize the concepts using wireframes and prototypes.</p>
 							</header>
 						</section>
@@ -229,7 +237,7 @@
 						<section>
 							<span class="icon featured fa-refresh"  style="color: green;"></span>
 							<header>
-								<h3>Iterate</h3>
+								<h3 class="pagetitle">Iterate</h3>
 							</header>
 							<p style="text-align:justify">Validate designs with user testing. Modiy designs after each round of testing until a winning solution is achieved</p>
 						</section>
