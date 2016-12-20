@@ -1647,7 +1647,7 @@
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: center;
+		text-align: left;
 	}
 
 	header.major {
@@ -3200,3 +3200,42 @@
 	.pagetitle{
 		font-weight: 400;
 	}
+
+	/*icon list*/
+	.features .ideas .tasks .problems ul {
+  list-style: none;
+  padding: 0;
+
+}
+.features .ideas .tasks .problems li {
+  padding-left: 1.3em;
+	text-align: left;
+}
+.features li:before {
+  content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+.ideas li:before {
+  content: "\f0eb"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+.tasks li:before {
+  content: "\f277"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+.problems li:before {
+  content: "\f00d"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
