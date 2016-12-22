@@ -3233,7 +3233,7 @@
   width: 1.3em; /* same as padding-left set on li */
 }
 .problems li:before {
-  content: "\f00d"; /* FontAwesome Unicode */
+  content: "\f071"; /* FontAwesome Unicode */
   font-family: FontAwesome;
   display: inline-block;
   margin-left: -1.3em; /* same as padding-left set on li */
