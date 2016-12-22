@@ -1647,7 +1647,7 @@
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: left;
+		text-align: center;
 	}
 
 	header.major {
@@ -3238,4 +3238,8 @@
   display: inline-block;
   margin-left: -1.3em; /* same as padding-left set on li */
   width: 1.3em; /* same as padding-left set on li */
+}
+
+header{
+	text-align:center
 }
