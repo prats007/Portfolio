@@ -3,6 +3,7 @@
 @import 'libs/mixins';
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,900');
 
 /*
 	Twenty by HTML5 UP
@@ -68,7 +69,8 @@
 
 	body, input, select, textarea {
 		color: _palette(fg);
-		font-family: 'Lato', sans-serif;
+		//font-family: 'Lato', sans-serif;
+		font-family: 'Montserrat', sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
